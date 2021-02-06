@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 500px) {
+  .number {
+    font-size: 2.5rem;
+  }
+
+  .hand.second {
+    width: 2px;
+  }
+  
+  .hand.minute {
+    width: 5px;
+  }
+  
+  .hand.hour {
+    width: 7px;
+  }
+  
+  .character {
+    height: 50px;
+  }
+  
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+  .clock {
+    width: 85vh;
+    height: 85vh;
+  }
+  .number {
+    font-size: 2.5rem;
+  }
+
+  .hand.second {
+    width: 2px;
+  }
+  
+  .hand.minute {
+    width: 5px;
+  }
+  
+  .hand.hour {
+    width: 7px;
+  }
+  
+  .character {
+    height: 50px;
+  }
+}
